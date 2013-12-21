@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.home.mymultichecklistview.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+ <com.home.mymultichecklistview.CheckableTextView 
+     android:id="@+id/item"
+     android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_marginTop="6dip"
+	 style="@style/text"
+	 android:layout_weight="1"
+ />
+    
+ <com.home.mymultichecklistview.InertCheckBox
+     android:id="@+id/checkbox"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="5dp"
+     android:maxWidth="40dp"  
+     android:maxHeight="40dp"  
+     android:focusable="false" 
+	 android:layout_gravity="right"
+     android:button="@drawable/checkbox"
+ /> 
+ 
+ 
+</com.home.mymultichecklistview.CheckableLinearLayout>
