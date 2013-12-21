@@ -1,3 +1,3 @@
 Multi-check-in-expandablelistview
 =================================
-![github](https://github.com/swingseagull/Multi-check-in-expandablelistview/blob/master/multicheck-expandablelistview.png)
+![Multi check in expandable list view snapshot](/swingseagull/Multi-check-in-expandablelistview/blob/master/multicheck-expandablelistview.png)
